@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <!-- Bootstrap link -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span>Ten</span>AI Labs
+      </div>
+      <ul class="navlist">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="frontend.html">Frontend AI Tools</a></li>
+        <li><a href="backend.html">Backend AI Tools</a></li>
+        <li><a href="querytools.html">General Queries AI Tools</a></li>
+        
+        <!-- <li><a href="#Training-sec">Training</a></li> -->
+        <li class="dropdown">
+          <a href="">More</a>
+          <div class="dropdown-content">
+            <ul class="ull" style="list-style-type:square; color: green;" aria-labelledby="dropdownMenuButton1">
+              <li class="listDropdown"><a href="prd.html">Product Requirement Document AI Tools</a></li>
+              <li class="listDropdown"><a href="report.html">Reports AI Tools</a></li>
+              <li class="listDropdown"><a href="marketting.html">Marketing Ai Tools</a></li>
+              <li class="listDropdown"><a href="hraitool.html">Hr Ai Tools</a></li>
+            </ul>
+            <!-- .dropdown-item:hover{
+              color: green;
+              background-color: #e7e7e7;
+          }
+          .ull {
+              background-color: transparent;
+              border-style: none;
+          } -->
+          </div>
+        </li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+ <div class="container">
+    <!-- <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Chatfuel</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Chatfuel: </b> Chatfuel is a platform that allows users to create chatbots for Facebook Messenger without coding.<br><br>
+        <b>How to use Chatfuel:</b><br>
+        <b>1.</b>Sign in to Chatfuel with your Facebook account.<br>
+        <b>2.</b>Create a new bot by clicking on the <b> "Create from template"</b> button or <b>"Start from scratch."</b><br>
+        <b>3.</b>Connect your bot to your Facebook page by selecting the page you want to connect.<br>
+        <b>4.</b>Add blocks to your bot to define its behavior, such as text responses, buttons, and actions.<br>
+        <b>5.</b>Customize the welcome message, default responses, and conversation flow.<br>
+        <b>6.</b>Test your bot using the built-in preview feature or connect it to Facebook Messenger to test it live.<br>
+        <b>7.</b>Publish your bot by clicking on the <b>"Go live"</b> button.<br>
+        <b>8.</b>Monitor your bot's performance and make improvements based on user interactions and feedback.<br>
+      
+       </p>
+       <a href="https://chatfuel.com/" class="login-button">Click Here To Try</a>          
+       </div>
+      </div> -->
+      
+      
+      <!-- <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Pandorabots</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Pandorabots: </b>Pandorabots is a platform for building and deploying chatbots and virtual agents using artificial intelligence.<br><br>
+        <b>How to use Pandorabots:</b><br>
+        <b>1.</b>Sign up for an account on the Pandorabots website.<br>
+        <b>2.</b>Create a new bot by clicking on the <b>"Create a bot"</b> button and providing a name and description for your bot.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>4.</b>Train your bot by providing examples of user queries and testing its responses.<br>
+        <b>5.</b>Optionally, add entities to capture specific pieces of information from user queries.<br>
+        <b>6.</b>Customize your bot's responses and conversation flow using AIML (Artificial Intelligence Markup Language).<br>
+        <b>7.</b>Integrate your bot into your website or app using the provided SDKs and APIs.<br>
+        <b>8.</b>Monitor your bot's performance and make improvements based on user interactions and feedback.<br>
+      
+      </p>
+      <a href="https://home.pandorabots.com/home.html" class="login-button">Click Here To Try</a>          
+      </div>
+      </div> -->
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>IBM Watson Assistant</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> IBM Watson Assistant: </b>IBM Watson Assistant is an AI-powered virtual assistant platform that enables businesses to build and deploy conversational interfaces.<br><br>
+        <b>How to use IBM Watson Assistant:</b><br>
+        <b>1.</b>Visit the IBM Watson Assistant website and sign up for an account.<br>
+        <b>2.</b>Once logged in, create a new assistant by clicking on the<b> "Create assistant"</b> button.<br>
+        <b>3.</b>Name your assistant and choose the language and region.<br>
+        <b>4.</b>Define your assistant's skills by adding intents (user queries), entities (keywords), and dialog nodes (responses).<br>
+        <b>5.</b>Train your assistant by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Test your assistant using the built-in chat interface or integrate it into your website or app.<br>
+        <b>7.</b>Continuously improve your assistant by analyzing user interactions and refining its responses.<br>
+        
+      </p>
+      <a href="https://medium.com/ibm-watson" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Dialogflow</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Dialogflow:</b>Dialogflow is a conversational AI platform developed by Google for building natural language understanding capabilities into applications.<br><br>
+        <b>How to use Dialogflow:</b><br>
+        <b>1.</b>Go to the Dialogflow website and sign in with your Google account or create a new one.<br>
+        <b>2.</b>Create a new agent by clicking on the "Create Agent" button and providing a name for your agent.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide corresponding responses.<br>
+        <b>4.</b>Optionally, add entities to extract specific information from user queries.<br>
+        <b>5.</b>Train your agent by providing examples of user queries and testing its responses.<br>
+        <b>6.</b>Integrate your agent into your website, app, or messaging platform using the provided SDKs and APIs.<br>
+        <b>7.</b>Monitor your agent's performance and make improvements based on user feedback and analytics.<br>
+      
+      </p>
+      <a href="https://console.cloud.google.com/marketplace/product/google/dialogflow.googleapis.com?pli=1" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Amazon Lex</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Amazon Lex: </b>Amazon Lex is a service provided by Amazon Web Services (AWS) for building conversational interfaces using voice and text inputs.<br><br>
+        <b>How to use Amazon Lex:</b><br>
+        <b>1.</b>Sign in to the AWS Management Console or create a new AWS account.<br>
+        <b>2.</b>Open the Amazon Lex console and click on "Create bot."<br>
+        <b>3.</b>Choose the "Custom bot" option and provide a name and description for your bot.<br>
+        <b>4.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>5.</b>Optionally, add slot types to capture specific pieces of information from user queries.<br>
+        <b>6.</b>Build your bot's conversation flow by defining prompts and responses for each intent.<br>
+        <b>7.</b>Test your bot using the built-in chat interface or integrate it into your application using the provided SDKs and APIs.<br>
+        <b>8.</b>Monitor your bot's performance and make improvements as needed based on user interactions and feedback.<br>
+      
+      </p>
+      <a href="https://aws.amazon.com/lex/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Rasa</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Rasa: </b>Rasa is an open-source conversational AI platform that allows developers to build, deploy, and manage chatbots and virtual assistants.<br><br>
+        <b>How to use Rasa:</b><br>
+        <b>1.</b>Install Rasa by following the instructions on the Rasa website or using the pip package manager.<br>
+        <b>2.</b>Create a new Rasa project using the 'rasa init' command.<br>
+        <b>3.</b>Define intents to represent different types of user queries in the data/nlu.md file.<br>
+        <b>4.</b>Train your NLU model using the 'rasa train nlu' command.<br>
+        <b>5.</b>Define responses for each intent in the 'domain.yml' file.<br>
+        <b>6.</b>Define conversation flows using stories in the 'data/stories.md' file.<br>
+        <b>7.</b>Train your dialogue management model using the 'rasa train' command.<br>
+        <b>8.</b>Test your assistant using the 'rasa shell' command or integrate it into your application using the provided SDKs and APIs.<br>
+        <b>9.</b>Monitor your assistant's performance and make improvements as needed based on user interactions and feedback.<br>
+      
+      </p>
+      <a href="https://rasa.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <!--todays task--->
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Wit.ai</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Wit.ai: </b>Wit.ai is a natural language processing platform developed by Facebook for building conversational interfaces and voice-controlled applications.<br><br>
+        <b>How to use Wit.ai:</b><br>
+        <b>1.</b>Sign up for an account on the Wit.ai website.<br>
+        <b>2.</b>Create a new Wit.ai app by clicking on the "Create" button.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>4.</b>Train your Wit.ai app by providing examples of user queries and testing its responses.<br>
+        <b>5.</b>Optionally, add entities to capture specific pieces of information from user queries.<br>
+        <b>6.</b>Customize your app's responses and conversation flow using the provided tools.<br>
+        <b>7.</b>Integrate your app into your website, app, or messaging platform using the provided SDKs and APIs.<br>
+        <b>8.</b>Test your app thoroughly to ensure it handles user queries accurately.<br>
+        <b>9.</b>Monitor your app's performance and make improvements based on user interactions and feedback.<br>
+      
+      </p>
+      <a href="https://wit.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Botpress</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Botpress: </b>Botpress is an open-source conversational AI platform that enables developers to build, deploy, and manage chatbots and virtual assistants.<br><br>
+        <b>How to use Botpress:</b><br>
+        <b>1.</b>Download and install Botpress on your local machine or server.<br>
+        <b>2.</b>Launch the Botpress dashboard and create a new bot project.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>4.</b>Train your bot by providing examples of user queries and testing its responses.<br>
+        <b>5.</b>Customize your bot's responses and conversation flow using the provided visual editor.<br>
+        <b>6.</b>Optionally, integrate external APIs or services to enhance your bot's functionality.<br>
+        <b>7.</b>Test your bot thoroughly to ensure it handles user queries accurately.<br>
+        <b>8.</b>Deploy your bot to your preferred hosting environment or integrate it into your website or app.<br>
+        <b>9.</b>Monitor your bot's performance and make improvements based on user interactions and feedback.<br>
+      
+      </p>
+      <a href="https://botpress.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>HubSpot Conversations</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b>HubSpot Conversations: </b>HubSpot Conversations is a platform that allows businesses to build chatbots and manage conversations with customers across various channels.<br><br>
+        <b>How to use HubSpot Conversations:</b><br>
+        <b>1.</b>Sign up for a HubSpot account or log in to your existing account.<br>
+        <b>2.</b>Navigate to the Conversations tool within HubSpot.<br>
+        <b>3.</b>Click on "Create chatflow" to begin building your chatbot.<br>
+        <b>4.</b>Define the welcome message and default responses for your chatbot.<br>
+        <b>5.</b>Add rules and conditions to customize the chatbot's behavior based on user input.<br>
+        <b>6.</b>Integrate the chatbot with your website or other communication channels.<br>
+        <b>7.</b>Test the chatbot to ensure it responds accurately to user queries.<br>
+        <b>8.</b>Monitor the chatbot's performance and make adjustments as needed based on user interactions.<br>
+        <b>9.</b>Continuously optimize the chatbot's responses and conversation flow to improve customer experience.<br>
+      
+      </p>
+      <a href="https://www.hubspot.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>LivePerson</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> LivePerson: </b>LivePerson is a conversational AI platform that enables businesses to engage with customers through chatbots, messaging, and live chat.<br><br>
+        <b>How to use LivePerson:</b><br>
+        <b>1.</b>Sign up for a LivePerson account or log in to your existing account.<br>
+        <b>2.</b>Navigate to the Conversational AI section within LivePerson.<br>
+        <b>3.</b>Click on "Create a bot" to begin building your chatbot.<br>
+        <b>4.</b>Define the bot's personality, welcome message, and default responses.<br>
+        <b>5.</b>Design conversation flows using the provided visual editor.<br>
+        <b>6.</b>Integrate the chatbot with your website, messaging apps, or other communication channels.<br>
+        <b>7.</b>Test the chatbot to ensure it responds accurately to user queries.<br>
+        <b>8.</b>Monitor the chatbot's performance and make adjustments as needed based on user interactions.<br>
+        <b>9.</b>Continuously optimize the chatbot's responses and conversation flow to improve customer experience.<br>
+      
+      </p>
+      <a href="https://www.liveperson.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Ada</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b>Ada: </b>Ada is an AI-powered customer service platform that allows businesses to automate responses to customer queries and provide personalized assistance.<br><br>
+        <b>How to use Ada:</b><br>
+        <b>1.</b>Sign up for an account on the Ada website.<br>
+        <b>2.</b>Create a new Ada bot by providing basic information about your business and customer service needs.<br>
+        <b>3.</b>Define intents to represent different types of customer queries, such as FAQs or support requests.<br>
+        <b>4.</b>Train your Ada bot by providing examples of customer queries and corresponding responses.<br>
+        <b>5.</b>Customize the bot's responses and conversation flows to align with your brand voice and customer service goals.<br>
+        <b>6.</b>Integrate the Ada bot with your website, mobile app, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>7.</b>Test the bot to ensure it accurately handles customer queries and provides helpful responses.<br>
+        <b>8.</b>Deploy the Ada bot to your customer service channels and monitor its performance.<br>
+        <b>9.</b>Analyze customer interactions and feedback to identify areas for improvement and make adjustments to the bot's responses and behavior.<br>
+      
+      </p>
+      <a href="https://www.ada.cx/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Zoho Desk</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Zoho Desk: </b>Zoho Desk is a help desk software that includes AI-powered features for automating responses to customer queries, routing tickets, and providing self-service options.<br><br>
+        <b>How to use Zoho Desk:</b><br>
+        <b>1.</b>Sign up for a Zoho Desk account or log in to your existing account.<br>
+        <b>2.</b>Navigate to the AI features section within Zoho Desk.<br>
+        <b>3.</b>Set up the AI assistant by providing basic information about your business and customer service preferences.<br>
+        <b>4.</b>Define rules and conditions for routing tickets and automating responses using AI.<br>
+        <b>5.</b>Train the AI assistant by providing examples of customer queries and corresponding responses.<br>
+        <b>6.</b>Customize the assistant's responses and behavior to match your brand voice and customer service standards.<br>
+        <b>7.</b>Integrate Zoho Desk with your other customer service channels, such as email or social media platforms.<br>
+        <b>8.</b>Test the AI assistant to ensure it accurately handles customer queries and provides timely responses.<br>
+        <b>9.</b>Monitor the AI assistant's performance and adjust its settings as needed based on customer feedback and interaction data.<br>
+      
+      </p>
+      <a href="https://www.zoho.com/desk/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Smartly.ai</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Smartly.ai: </b> Smartly.ai is a conversational AI platform that enables businesses to build and deploy chatbots and virtual assistants for handling user queries and interactions.<br><br>
+        <b>How to use Smartly.ai:</b><br>
+        <b>1.</b>Sign up for an account on the Smartly.ai website.<br>
+        <b>2.</b>Create a new project by providing basic information about your chatbot or virtual assistant.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>4.</b>Train the AI model by providing examples of user queries and corresponding responses.<br>
+        <b>5.</b>Customize the chatbot's responses and conversation flows to align with your business goals and user needs.<br>
+        <b>6.</b>Integrate the chatbot with your website, mobile app, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>7.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant responses.<br>
+        <b>8.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>9.</b>Analyze user interactions and feedback to identify areas for improvement and make adjustments to the chatbot's responses and behavior.<br>
+      
+      </p>
+      <a href="https://rasa.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Kore.ai</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Kore.ai: </b>Kore.ai is a conversational AI platform that allows businesses to create chatbots and virtual assistants for various use cases, including customer support and enterprise productivity.<br><br>
+        <b>How to use Kore.ai:</b><br>
+        <b>1.</b>Sign up for an account on the Kore.ai website.<br>
+        <b>2.</b>Create a new bot project by providing basic information about your business and use case.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide examples of user utterances for each intent.<br>
+        <b>4.</b>Train the AI model by providing examples of user queries and corresponding responses.<br>
+        <b>5.</b>Customize the bot's responses and conversation flows to align with your business requirements and user expectations.<br>
+        <b>6.</b>Integrate the bot with your customer service channels, internal systems, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>7.</b>Test the bot to ensure it accurately understands user queries and provides appropriate responses.<br>
+        <b>8.</b>Deploy the bot to your desired channels and monitor its performance.<br>
+        <b>9.</b>Continuously optimize the bot based on user feedback and interaction data to improve its effectiveness and efficiency.<br>
+      
+      </p>
+      <a href="https://kore.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Freshchat</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Freshchat: </b>Freshchat is a modern messaging software for sales and customer engagement that offers AI-powered chatbots for automating responses and providing support. <br><br>
+        <b>How to use Freshchat:</b><br>
+        <b>1.</b>Sign up for an account on the Freshchat website.<br>
+        <b>2.</b>Navigate to the chatbots section within Freshchat's dashboard.<br>
+        <b>3.</b>Create a new chatbot by providing basic information about your business and customer service requirements.<br>
+        <b>4.</b>Define intents to represent different types of user queries and provide examples of user utterances for each intent.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses and conversation flows to match your brand voice and customer service standards.<br>
+        <b>7.</b>Integrate the chatbot with your website, mobile app, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides appropriate responses.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously optimize the chatbot based on user feedback and interaction data to improve its effectiveness and efficiency.<br>
+      
+       </p>
+      <a href="https://www.tars.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Boost.ai</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Boost.ai: </b> Boost.ai is a conversational AI platform that offers virtual agents for customer service, sales, and support.<br><br>
+        <b>How to use Boost.ai:</b><br>
+        <b>1.</b>Sign up for an account on the Boost.ai website.<br>
+        <b>2.</b>Create a new virtual agent by providing basic information about your business and use case.<br>
+        <b>3.</b>Define intents to represent different types of user queries and provide examples of user utterances for each intent.<br>
+        <b>4.</b>Train the virtual agent by providing examples of user queries and corresponding responses.<br>
+        <b>5.</b>Customize the agent's responses and conversation flows to align with your business requirements and user expectations.<br>
+        <b>6.</b>Integrate the agent with your customer service channels, internal systems, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>7.</b>Test the agent to ensure it accurately understands user queries and provides appropriate responses.<br>
+        <b>8.</b>Deploy the agent to your desired channels and monitor its performance.<br>
+        <b>9.</b>Continuously optimize the agent based on user feedback and interaction data to improve its effectiveness and efficiency.<br>
+      
+      </p>
+      <a href="https://boost.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Wysdom</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Wysdom: </b>Wysdom is an AI-powered customer service platform that utilizes virtual agents to handle inquiries and provide assistance to customers. <br><br>
+        <b>How to use Wysdom:</b><br>
+        <b>1.</b>Sign up for an account on the Wysdom website.<br>
+        <b>2.</b>Define the scope and objectives of your virtual agent project, including target audience and key performance indicators.<br>
+        <b>3.</b>Collaborate with Wysdom's team to design and develop the virtual agent based on your requirements and goals.<br>
+        <b>4.</b>Train the virtual agent using historical customer interactions, knowledge bases, and other relevant data sources.<br>
+        <b>5.</b>Test the virtual agent to ensure it accurately understands user queries and provides helpful responses.<br>
+        <b>6.</b>Integrate the virtual agent with your customer service channels, website, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>7.</b>Deploy the virtual agent to your desired channels and monitor its performance.<br>
+        <b>8.</b>Continuously optimize the virtual agent based on user feedback and interaction data to improve its effectiveness and efficiency.<br>
+      
+      </p>
+      <a href="https://wysdom.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Pypestream</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Pypestream: </b>Pypestream is a conversational AI platform that enables businesses to build chatbots and automate interactions with customers across messaging channels. <br><br>
+        <b>How to use Pypestream:</b><br>
+        <b>1.</b>Sign up for an account on the Pypestream website.<br>
+        <b>2.</b>Create a new chatbot project by providing basic information about your business and use case.<br>
+        <b>3.</b>Design conversational flows by adding messages, buttons, and actions to guide users through interactions.<br>
+        <b>4.</b>Customize the chatbot's responses and conversation flows to align with your branding and user experience goals.<br>
+        <b>5.</b>Integrate the chatbot with your messaging channels, such as SMS, Facebook Messenger, or WhatsApp.<br>
+        <b>6.</b>Test the chatbot to ensure it accurately responds to user queries and provides relevant information.<br>
+        <b>7.</b>Monitor the chatbot's performance and adjust its settings as needed based on user feedback and interaction data.<br>
+        <b>8.</b>Continuously optimize the chatbot's responses and conversation flows to improve user engagement and satisfaction.<br>
+      
+      </p>
+      <a href="https://www.pypestream.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Intercom</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Intercom: </b>  Intercom is a customer messaging platform that offers AI-powered chatbots for handling inquiries, providing support, and engaging with customers.<br><br>
+        <b>How to use Intercom:</b><br>
+        <b>1.</b>Sign up for an account on the Intercom website.<br>
+        <b>2.</b>Navigate to the chatbots section within Intercom's dashboard.<br>
+        <b>3.</b>Create a new chatbot by providing basic information about your business and use case.<br>
+        <b>4.</b>Define intents to represent different types of user queries and provide examples of user utterances for each intent.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses and conversation flows to align with your brand voice and customer service goals.<br>
+        <b>7.</b>Integrate the chatbot with your website, mobile app, or messaging platforms using the provided SDKs and APIs.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant responses.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Analyze user interactions and feedback to identify areas for improvement and make adjustments to the chatbot's responses and behavior.<br>
+      
+      </p>
+      <a href="https://www.intercom.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      <!--new work here-->
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Answer Bot by Zendesk</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Answer Bot by Zendesk: </b>Answer Bot is an AI-powered chatbot integrated with Zendesk's customer support software. It helps businesses automatically respond to customer queries and provide relevant information.<br><br>
+        <b>How to use Answer Bot by Zendesk:</b><br>
+        <b>1.</b>Sign up for a Zendesk account or log in to your existing account.<br>
+        <b>2.</b>Navigate to the Answer Bot section within Zendesk's dashboard.<br>
+        <b>3.</b>Set up Answer Bot by configuring basic settings such as language and deployment options.<br>
+        <b>4.</b>Define intents and responses for common customer queries.<br>
+        <b>5.</b>Train Answer Bot by providing examples of questions and appropriate answers.<br>
+        <b>6.</b>Customize Answer Bot's responses to match your brand's tone and style.<br>
+        <b>7.</b>Integrate Answer Bot with your customer support channels, such as email or chat.<br>
+        <b>8.</b>Test Answer Bot to ensure it accurately understands and responds to customer queries.<br>
+        <b>9.</b>Deploy Answer Bot to your customer support channels and monitor its performance.<br>
+        <b>10.</b>Analyze usage data and customer feedback to improve Answer Bot's effectiveness over time.<br>
+      
+      </p>
+      <a href="https://www.zendesk.com/in/blog/introducing-answer-bot/#georedirect" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Helpshift</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b>Helpshift: </b> Helpshift is a customer service platform that offers AI-powered chatbots for automating responses and resolving customer queries across various channels. <br><br>
+        <b>How to use Helpshift:</b><br>
+        <b>1.</b>Sign up for a Helpshift account or log in to your existing account.<br>
+        <b>2.</b>Access the chatbot builder tool within the Helpshift dashboard.<br>
+        <b>3.</b>Create a new chatbot project and define its objectives and target audience.<br>
+        <b>4.</b>Design conversational flows by adding messages, actions, and responses.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses to align with your brand voice and customer service standards.<br>
+        <b>7.</b>Integrate the chatbot with your customer support channels, website, or messaging platforms.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant information.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>ontinuously optimize the chatbot based on user feedback and interaction data to improve its effectiveness.<br>
+      
+      </p>
+      <a href="https://www.helpshift.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Gorgias</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Gorgias: </b> Gorgias is a helpdesk software that includes AI-powered features for automating responses to customer queries and providing personalized support.<br><br>
+        <b>How to use Gorgias:</b><br>
+        <b>1.</b>Sign up for a Gorgias account or log in to your existing account.<br>
+        <b>2.</b>Navigate to the AI features section within Gorgias's dashboard.<br>
+        <b>3.</b>Set up AI automation rules for common customer queries and issues.<br>
+        <b>4.</b>Define triggers and actions to automate responses and tasks.<br>
+        <b>5.</b>Train the AI model by providing examples of customer queries and appropriate responses.<br>
+        <b>6.</b>Customize the AI automation rules to match your brand's tone and style.<br>
+        <b>7.</b>Integrate Gorgias with your customer support channels, such as email, chat, or social media.<br>
+        <b>8.</b>Test the AI automation rules to ensure they accurately handle customer queries and tasks.<br>
+        <b>9.</b>Deploy the AI automation rules to your customer support channels and monitor their performance.<br>
+        <b>10.</b>Analyze metrics and feedback to optimize the AI automation rules and improve customer satisfaction.<br>
+      
+      </p>
+      <a href="https://www.gorgias.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Re:amaze</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Re:amaze: </b> Re:amaze is a customer service platform that offers AI-powered chatbots and automation tools for managing customer inquiries and providing support.<br><br>
+        <b>How to use Re:amaze:</b><br>
+        <b>1.</b>Sign up for a Re:amaze account or log in to your existing account.<br>
+        <b>2.</b>Access the chatbot builder tool within the Re:amaze dashboard.<br>
+        <b>3.</b>Create a new chatbot project and define its purpose and target audience.<br>
+        <b>4.</b>Design conversation flows by adding messages, questions, and responses.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and appropriate responses.<br>
+        <b>6.</b>Customize the chatbot's responses to reflect your brand's voice and customer service standards.<br>
+        <b>7.</b>Integrate the chatbot with your customer support channels, website, or messaging platforms.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides helpful information.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously optimize the chatbot based on user feedback and interaction data to enhance its effectiveness.<br>
+      
+      </p>
+      <a href="https://www.reamaze.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>ChatGPT by OpenAI</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> ChatGPT by OpenAI: </b>ChatGPT is an AI-powered chatbot developed by OpenAI, capable of engaging in natural conversations and answering a wide range of queries.<br><br>
+        <b>How to use ChatGPT by OpenAI:</b><br>
+        <b>1.</b>Visit the OpenAI ChatGPT website.<br>
+        <b>2.</b>Start interacting with ChatGPT by typing your queries in the chat interface.<br>
+        <b>3.</b>ChatGPT will generate responses based on the context of your queries and its trained knowledge.<br>
+        <b>4.</b>Continue the conversation by asking follow-up questions or providing additional context.<br>
+        <b>5.</b>Explore different topics and query types to see the breadth of ChatGPT's capabilities.<br>
+        <b>6.</b>Experiment with different conversational styles and tones to interact with ChatGPT effectively.<br>
+        <b>7.</b>Provide feedback on ChatGPT's responses to help improve its conversational abilities over time.<br>
+        <b>8.</b>Use ChatGPT as a resource for getting answers to general questions or engaging in casual conversation.<br>
+        <b>9.</b>Share interesting or informative responses from ChatGPT with others.<br>
+        <b>10.</b>Enjoy exploring the possibilities of conversing with an AI-powered chatbot like ChatGPT.<br>
+      
+      </p>
+      <a href="https://chat.openai.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>SnatchBot</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> SnatchBot: </b> SnatchBot is a platform for building and deploying chatbots across various channels, including websites, messaging apps, and social media platforms.<br><br>
+        <b>How to use SnatchBot:</b><br>
+        <b>1.</b>ign up for a SnatchBot account on their website.<br>
+        <b>2.</b>Create a new chatbot project by providing basic information about your business and use case.<br>
+        <b>3.</b>Design conversation flows by adding messages, questions, and responses.<br>
+        <b>4.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses and conversation flows to match your brand voice and customer service standards.<br>
+        <b>7.</b>Integrate the chatbot with your website, messaging apps, or other communication channels using SnatchBot's plugins or APIs.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant responses.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously optimize the chatbot based on user feedback and interaction data to improve its effectiveness and user satisfaction.<br>
+      
+      </p>
+      <a href="https://snatchbot.me/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Salesforce Einstein Bots</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Salesforce Einstein Bots: </b> Salesforce Einstein Bots is a chatbot-building platform integrated with Salesforce CRM, enabling businesses to automate customer interactions and provide personalized assistance. <br><br>
+        <b>How to use Salesforce Einstein Bots:</b><br>
+        <b>1.</b>Log in to your Salesforce account or sign up for a new account.<br>
+        <b>2.</b>Access the Einstein Bots section within the Salesforce Service Cloud.<br>
+        <b>3.</b>Create a new bot by providing basic information about your business and use case.<br>
+        <b>4.</b>Design conversation flows by adding dialogues, questions, and responses.<br>
+        <b>5.</b>Train the bot by providing examples of user queries and corresponding actions.<br>
+        <b>6.</b>Customize the bot's responses and behavior to align with your brand voice and customer service standards.<br>
+        <b>7.</b>Integrate the bot with your Salesforce CRM and other customer support channels.<br>
+        <b>8.</b>Test the bot to ensure it accurately understands user queries and performs desired actions.<br>
+        <b>9.</b>Deploy the bot to your customer support channels and monitor its performance.<br>
+        <b>10.</b>Analyze bot usage and customer feedback to continuously optimize its performance and improve user satisfaction.<br>
+      
+      </p>
+      <a href="https://trailhead.salesforce.com/content/learn/modules/service_bots_basics/learn-about-einstein-bots" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Dialogflow CX by Google Cloud</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Dialogflow CX by Google Cloud: </b> Dialogflow CX is a conversational AI platform that enables businesses to build advanced virtual agents for handling complex user queries and tasks.<br><br>
+        <b>How to use Dialogflow CX by Google Cloud:</b><br>
+        <b>1.</b>Sign in to your Google Cloud Platform account or sign up for a new account.<br>
+        <b>2.</b>Access Dialogflow CX within the Google Cloud Console.<br>
+        <b>3.</b>Create a new agent by providing basic information about your business and use case.<br>
+        <b>4.</b>Design conversation flows using the visual editor to define intents, entities, and fulfillment logic.<br>
+        <b>5.</b>Train the virtual agent by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the virtual agent's responses and behavior to meet your specific requirements.<br>
+        <b>7.</b>Integrate the virtual agent with your website, mobile app, or messaging platforms using Dialogflow's SDKs and APIs.<br>
+        <b>8.</b>Test the virtual agent to ensure it accurately understands user queries and provides relevant responses.<br>
+        <b>9.</b>Deploy the virtual agent to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously iterate on the virtual agent's design and functionality to improve its effectiveness and user satisfaction.<br>
+      
+      </p>
+      <a href="https://codelabs.developers.google.com/codelabs/dialogflow-cx-retail-agent#0" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Kuki Chat</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Kuki Chat: </b>Kuki Chat is a conversational AI platform that enables businesses to build chatbots for various use cases, including customer support and engagement. <br><br>
+        <b>How to use Kuki Chat:</b><br>
+        <b>1.</b>Sign up for an account on the Kuki Chat website.<br>
+        <b>2.</b>Create a new chatbot project and define its purpose and target audience.<br>
+        <b>3.</b>Design conversation flows by adding messages, questions, and responses.<br>
+        <b>4.</b>Train the chatbot by providing examples of user queries and appropriate responses.<br>
+        <b>5.</b>Customize the chatbot's responses to match your brand voice and customer service standards.<br>
+        <b>6.</b>Integrate the chatbot with your website, messaging platforms, or other communication channels.<br>
+        <b>7.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant information.<br>
+        <b>8.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>9.</b>Analyze user interactions and feedback to optimize the chatbot's responses and improve user satisfaction.<br>
+      
+      </p>
+      <a href="https://www.kuki.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>BotStar</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> BotStar: </b> BotStar is a chatbot builder platform that allows users to create AI-powered chatbots for customer support, lead generation, and more.<br><br>
+        <b>How to use BotStar:</b><br>
+        <b>1.</b>Sign up for an account on the BotStar website.<br>
+        <b>2.</b>Start by creating a new chatbot project and selecting a template or starting from scratch.<br>
+        <b>3.</b>Design conversational flows by adding messages, questions, and responses.<br>
+        <b>4.</b>Define intents to represent different types of user queries and provide sample utterances for each intent.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses and conversation flows to align with your brand voice and customer service goals.<br>
+        <b>7.</b>Integrate the chatbot with your website, social media platforms, or messaging apps.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides appropriate responses.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously optimize the chatbot based on user feedback and interaction data to improve its effectiveness.<br>
+      
+      </p>
+      <a href="https://www.botstar.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>ChatCompose</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> ChatCompose: </b> ChatCompose is a chatbot platform that enables businesses to create AI-powered chatbots for automating responses and engaging with customers. <br><br>
+        <b>How to use ChatCompose:</b><br>
+        <b>1.</b>Sign up for an account on the ChatCompose website.<br>
+        <b>2.</b>Create a new chatbot project and define its purpose, target audience, and preferred channels.<br>
+        <b>3.</b>Design conversation flows by adding messages, questions, and responses.<br>
+        <b>4.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>5.</b>Customize the chatbot's responses and conversation flows to match your brand voice and customer service standards.<br>
+        <b>6.</b>Integrate the chatbot with your website, messaging platforms, or other communication channels.<br>
+        <b>7.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant information.<br>
+        <b>8.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>9.</b>Analyze user interactions and feedback to optimize the chatbot's responses and improve user satisfaction.<br>
+      
+      </p>
+      <a href="https://www.chatcompose.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Flow XO</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Flow XO: </b>  Flow XO is a platform for building chatbots and workflows to automate tasks and interact with customers across multiple channels.<br><br>
+        <b>How to use Flow XO:</b><br>
+        <b>1.</b>Sign up for an account on the Flow XO website.<br>
+        <b>2.</b>Create a new chatbot project and define its objectives, target audience, and preferred channels.<br>
+        <b>3.</b>Design conversation flows by adding triggers, actions, and responses.<br>
+        <b>4.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>5.</b>Customize the chatbot's responses and conversation flows to align with your brand voice and customer service goals.<br>
+        <b>6.</b>Integrate the chatbot with your website, social media platforms, or messaging apps.<br>
+        <b>7.</b>Test the chatbot to ensure it accurately understands user queries and provides appropriate responses.<br>
+        <b>8.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>9.</b>Continuously optimize the chatbot based on user feedback and interaction data to improve its effectiveness.<br>
+      
+      </p>
+      <a href="https://flowxo.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Landbot.io</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Landbot.io: </b> Landbot.io is a conversational platform that allows businesses to create chatbots for lead generation, customer support, and interactive experiences. <br><br>
+        <b>How to use Landbot.io:</b><br>
+        <b>1.</b>Sign up for an account on the Landbot.io website.<br>
+        <b>2.</b>Begin by creating a new chatbot project and selecting a template or starting from scratch.<br>
+        <b>3.</b>Design conversation flows by adding blocks, questions, and responses.<br>
+        <b>4.</b>Define rules and conditions to handle user inputs and trigger specific actions.<br>
+        <b>5.</b>Train the chatbot by providing examples of user queries and corresponding responses.<br>
+        <b>6.</b>Customize the chatbot's responses and conversation flows to match your brand voice and communication style.<br>
+        <b>7.</b>Integrate the chatbot with your website or other communication channels.<br>
+        <b>8.</b>Test the chatbot to ensure it accurately understands user queries and provides relevant responses.<br>
+        <b>9.</b>Deploy the chatbot to your desired channels and monitor its performance.<br>
+        <b>10.</b>Continuously iterate on the chatbot's design and functionality to enhance its effectiveness and user satisfaction.<br>
+      
+      </p>
+      <a href="https://www.intercom.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3Observe.AI</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Observe.AI: </b>Observe.AI is an AI-powered platform that analyzes customer interactions to provide insights, automate workflows, and improve customer service quality.<br><br>
+        <b>How to use Observe.AI:</b><br>
+        <b>1.</b>Sign up for an account on the Observe.AI website.<br>
+        <b>2.</b>Integrate Observe.AI with your customer service channels, such as phone calls, chat, or email.<br>
+        <b>3.</b>Observe.AI will automatically transcribe and analyze customer interactions using AI algorithms.<br>
+        <b>4.</b>Review insights and analytics provided by Observe.AI to identify trends, sentiment, and areas for improvement.<br>
+        <b>5.</b>Use Observe.AI's automation features to streamline workflows and enhance agent productivity.<br>
+        <b>6.</b>Implement recommended actions based on insights to improve customer service quality and satisfaction.<br>
+      
+      </p>
+      <a href="https://www.observe.ai/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+      
+      
+      
+      <div class="info-card">
+        <div class="info-card-header">      
+            <h3>Inbenta</h3>              
+        </div> 
+      <div class="info-card-body">
+      <p><b> Inbenta: </b>Inbenta provides AI-powered conversational search solutions for businesses, allowing users to find answers to their queries quickly and efficiently through natural language interactions. <br><br>
+        <b>How to use Inbenta:</b><br>
+        <b>1.</b>Sign up for an account on the Inbenta website.<br>
+        <b>2.</b>Define your search solution requirements and objectives for implementing conversational search.<br>
+        <b>3.</b>Customize Inbenta's conversational search interface to match your branding and user experience preferences.<br>
+        <b>4.</b>Integrate Inbenta's conversational search solution with your website or application using provided SDKs or APIs.<br>
+        <b>5.</b>Train Inbenta's natural language understanding models by providing examples of user queries and corresponding answers.<br>
+        <b>6.</b>Test the conversational search interface to ensure it accurately understands user queries and retrieves relevant information.<br>
+        <b>7.</b>Deploy the conversational search solution to your website or application and make it accessible to users.<br>
+        <b>8.</b>Monitor user interactions and search queries to identify areas for improvement and optimize the conversational search experience.<br>
+        <b>9.</b>Continuously update and refine Inbenta's natural language understanding models based on user feedback and usage data.<br>
+      
+      </p>
+      <a href="https://www.inbenta.com/" class="login-button">Click Here To Try</a>          
+      </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+        </body>
+      </html>
+      
